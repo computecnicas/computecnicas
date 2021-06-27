@@ -1,0 +1,386 @@
+* {
+  margin: 1.5px;
+  padding: 0px;
+  box-sizing:border-box ;
+} 
+
+body{
+  background: rgb(235, 222, 222);
+  font-family: sans-serif;
+}
+
+.contenedor{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+ 
+}
+
+/*.......................header..................*/
+
+header{
+  width: 100%;
+  height: 65px;  
+  background:rgb(236, 237, 241);
+}
+
+.logo img{
+  width: 245px;
+  height: auto;
+  margin-left:-4px;
+}
+
+header nav{
+  float: right;
+
+}
+
+header nav ul{
+  padding: 1px 15px;
+  display: flex;
+
+}
+
+header nav ul li{
+  list-style: none;
+  margin-right: 30px;
+    
+}
+
+header nav ul li a{
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 5px;
+  color: rgb(10, 44, 238);
+  font-size: 19px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+header nav a:hover{
+  background: rgb(234, 235, 240);
+  color: rgba(236, 25, 25, 0.986);
+  
+}
+
+header nav i{
+  margin-right: 2px;
+  font-size: 18px;
+}
+
+.home{
+  color: rgb(219, 9, 9);
+}
+
+.toggle{
+  float: right;
+  margin-right: 0px;
+  height: 50px;
+  line-height: 60px;
+  color: tomato;
+  font-size: 27px;
+  display: none;
+  cursor: pointer;
+}
+.toggle:hover{
+  opacity: 0.6;
+}
+
+/*.................Banner Cursos............................*/
+.banner{
+  width: auto;
+  margin: 0 auto;
+  margin-top: 5px;
+  display: flex;
+  
+  
+}
+.banner img{
+  width: 1163px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*.................Contenido de cursos............................*/
+.contencursos{
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+
+.cursos{
+  width: 30%;
+  float: left;
+  background-color: #f8f1f1;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.cursos img{
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px
+   
+  
+}
+.cursos h2{
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(72, 133, 76);
+}
+.cursos p{
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.cursos ul{
+  height: 120px;
+  overflow: hidden;
+  line-height: 23px;
+  
+}
+
+
+.cursos a{
+  display: inline-block;
+  color: rgb(246, 248, 244);
+  background-color: rgb(154, 204, 103);
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+.cursos a:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0,2);
+}
+.cursos.showcontent ul{
+  height: auto;
+}
+.cursos.showcontent a.leermas_btn{
+  background: rgb(201, 129, 116);
+}
+
+
+
+
+/*.................aside............................*/
+ 
+
+/*.................footer............................*/
+.cfooter{
+  width: auto;
+  padding: 40px 0;
+  background:#f3e3e3;
+  margin-top: 120px;
+  clear: both;
+
+  
+}
+
+.cfooter footer{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cfooter footer .logofooter{
+  text-align: center;
+}
+
+.cfooter footer .logofooter img{
+  width: 65px;
+}
+
+.cfooter footer .redes-footer{
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cfooter footer .redes-footer .icon-redes-footer{
+  font-size: 20px;
+  margin: 20px;
+  background: #d39dca;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #6a628d;
+
+}
+footer .redes-footer .fa-facebook-f:hover{
+  background: #41579A;
+  color: #fff;
+}
+footer .redes-footer .fa-google-plus-g:hover{
+  background: #e04018;
+  color: #fff;
+}
+.cfooter footer hr{
+  margin-top: 10px;
+  border: none;
+  height: 2px;
+  background: #c0c0c07a;
+}
+
+.cfooter h4{
+  text-align: center;
+  margin-top: 15px;
+  color: #757171;
+  font-weight: 500;
+}
+
+/*.................red social............................*/
+
+.fab{
+  width: -20px;
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+}
+.redsocial{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  background: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  right:0;
+  top: 500px;
+}
+
+.redsocial:hover{
+  color:#e4ebe7;
+  background: #20bd54;
+}
+
+
+/*.................Responsive............................*/
+
+@media(max-width:800px){
+
+  header{
+      padding: 0 10px;
+  }
+  .logo img{
+      width: 240px;
+      height: auto;
+      margin-left:-10px;
+  }
+
+  header nav{
+      position: absolute;
+      width: 33%;
+      height: 80%;
+      background: rgb(246, 245, 242);
+      top: 70px;
+      left:0;
+      transition: 0.5s;
+      left:-800px;
+  } 
+  .toggle{
+      display:block;
+      
+  }
+
+  header nav.active{
+      left:0px;
+  }
+
+  header nav ul{
+      display: block;
+      text-align: right;
+  }
+  
+  .banner{
+    width: 100%;
+    height: auto;
+   
+}
+  .banner img{
+    width: 100%;
+}
+
+.contencursos .cursos{
+  width: 380px;
+  background: #fafaf9; 
+  margin: 6px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #8b1d8f;
+}
+
+  .inforaside{
+      display: flex;
+      justify-content: center;
+  }
+  .inforaside img{
+      width: 100%; 
+  }
+    
+}
+
+@media(max-width:520px){
+     
+  .banner{
+    width: 100%;
+    height: 60px;
+   
+}
+  .banner img{
+    width: 100%;
+}
+.contencursos .cursos{
+  width: 450px;
+  background: #fafaf9; 
+  margin: 6px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #0f0e0f;
+}
+
+  .cfooter footer{
+      max-width: 1000px;
+      padding: 0 20px;
+  }
+     
+}
+@media(max-width:480px){
+     
+  .banner{
+    width: 100%;
+    height: 60px;
+   
+}
+  .banner img{
+    width: 100%;
+}
+.contencursos .cursos{
+  width: 450px;
+  background: #fafaf9; 
+  margin: 6px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #131013;
+}
+
+  .cfooter footer{
+      max-width: 1000px;
+      padding: 0 20px;
+  }
+     
+}
