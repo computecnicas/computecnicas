@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompuTecnicas</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/CT.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilosgaleria.css"> 
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/filtro.js"></script>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+        <div class="Header">
+            <a href="#" class="logo"><img src="img/LogoCT.png" alt="logo"></a>
+            <span class="toggle">&#9776;</span>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home home"></i> Inicio </a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="#">Equipos</a></li>
+                    <li><a href="contacto.html">Contactenos</a></li>
+                </ul> 
+            </nav>
+        </div> 
+        </header>
+
+    <div class="contenedo">  
+            <h2>Equipos de Computo CPU</h2>
+            <div>
+                <ul class="list-categoria">
+                    <li class="all active "><a href="#"class="btnmenu" data_filter="all">Todos</a></li>
+                    <li class="nuevo"><a href="#"class="btnmenu" data_filter="nuevo">NUEVO</a></li>
+                    <li class="usado"><a href="#"class="btnmenu" data_filter="usado">USADO</a></li>
+                </ul>
+            </div>
+
+                <ul class="imagenescpu">
+                    <li class="box-img usado"><img src="img/pc/INTEL01.jpg" alt="">
+                       <div class="detalleprod">
+                           <h4>Intel01</h4>
+                           <p>Proc:intel pentium</p>
+                            <p>Memoria:2GB</p>
+                            <p>Costo:$150.000</p>
+                        </div>
+                    </li>
+                    <li class="box-img usado"><img src="img/pc/AMD01.jpg" alt="">
+                        <div class="detalleprod">
+                            <h4>AMD01</h4>
+                            <p>Proc:intel pentium</p>
+                            <p>Memoria:2GB</p>
+                            <p>Costo:$140.000</p>
+                         </div>
+                    </li>
+                    <li class="box-img usado"><img src="img/pc/Intel02.jpg" alt="">
+                        <div class="detalleprod">
+                            <h4>Intel02</h4>
+                            <p>Proc:intel pentium</p>
+                            <p>Memoria:2GB</p>
+                            <p>Costo:$160.000</p>
+                         </div>
+                        
+                    </li>
+                    <li class="box-img usado"><img src="img/pc/AMD02.jpg" alt="">
+                        <div class="detalleprod">
+                            <h4>AMD02</h4>
+                            <p>Proc:intel pentium</p>
+                            <p>Memoria:2GB</p>
+                            <p>Costo:$150.000</p>
+                         </div>
+                    </li>
+                    <li class="box-img usado"><img src="img/pc/Intel03.jpg" alt="">
+                        <div class="detalleprod">
+                            <h4>Intel03</h4>
+                            <p>Proc:intel pentium</p>
+                             <p>Memoria:2GB</p>
+                             <p>Costo:$130.000</p>
+                         </div>
+                    </li>
+                    <li class="box-img usado"><img src="img/pc/AMD03.jpg" alt="">
+                        <div class="detalleprod">
+                            <h4>AMD03</h4>
+                            <p>Proc:intel pentium</p>
+                            <p>Memoria:2GB</p>
+                            <p>Costo:$160.000</p>
+                         </div>
+                    </li>
+                   
+                    <li class="box-img usado"><img src="img/pc/AMD04.jpg" alt="">
+                        <div class="detalleprod">
+                            <h4>AMD04</h4>
+                            <p>Proc:intel pentium</p>
+                            <p>Memoria:2GB</p>
+                            <p>Costo:$180.000</p>
+                         </div>
+                    </li>
+                    
+                </ul>                      
+    </div>
+
+    <div class="redsocial">
+        <ul>
+            <li> <a href="https://api.whatsapp.com/send?phone=573167990732"target="blank" class="fab fa-whatsapp"></a></li>
+        </ul>
+    </div>
+
+    <div class="cfooter">
+        <footer>
+            <div class="logofooter">
+                <img src="img/logofooter.png" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <hr>
+                <h4>© 2021 Computecnicas- Todos los Derechos Reservados</h4>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $('.toggle').click(function(){ 
+        $('nav').toggleClass('active')
+        })
+    })
+    </script>
+
+    <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD"
+    class="btn_whatp" target="_blank">
+    </a>
+
+       
+</body>
+</html>
